@@ -1,0 +1,155 @@
+* html {
+    margin: 0;
+    padding: 0;
+}
+
+/* WallpaperBody */
+body{
+    background-image: url(assets/realistic-dark-purple-silk-satin-fabric-background-illustration-free-vector.jpg) ;
+}
+
+/* Navbar1 */
+.li-navbar {
+    list-style-type: none;
+    padding: 3%;
+    margin: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar2 */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative; 
+    width:85%;
+}
+
+.nav-menu {
+    gap: 8%;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: rgb(255, 255, 255);
+    text-decoration:double;
+    font-size: 140%;
+}
+
+/* UkuranBody */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* KotakNavbar */
+.li-navbar:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+}
+
+/* UkuranBody */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Inside*/
+.Subcription{
+    color: rgb(196, 47, 47);
+    font-size: 150%;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+.subscribe{
+    color: rgb(138, 6, 6);
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.container-kontent{
+    background-image: url('assets/photo-1566041510394-cf7c8fe21800.avif');
+    
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    margin: 0;
+    padding-top: 0px;
+    height: 250px;
+}
+
+.footer-copyright{
+    width: 60%;
+    font-size: 8px;
+    display: flex;
+    color: rgb(218, 218, 218);
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.footer-desc{
+    width: 60%;
+    font-size: 12px;
+    display: flex;
+    color: rgb(218, 218, 218);
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-desc > div > h2,p {
+    color: white;
+}
+
+@media (max-width: 1100px) {
+    .nav-menu {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .nav-bar {
+        justify-content: center; 
+    }
+
+    .section-header {
+        font-size: 1.5em;
+    }
+
+    .home-btn {
+        flex-direction: column;
+    }
+
+    .home-btn button {
+        width: 100%;
+    }
+
+    .footer-desc {
+        flex-direction: column;
+    }
+
+    .footer-desc > div {
+        text-align: center;
+    }
+}
